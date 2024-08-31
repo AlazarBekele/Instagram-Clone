@@ -1,0 +1,31 @@
+.loading {
+    height: 100vh;
+    width: 100%;
+    background: white;
+    position: absolute;
+}
+.containLoadImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+.loadingImg {
+    width: 100px;
+}
+.Meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.metalogo {
+    width: 40px;
+}
+
+/*  */
+
+.changenone {
+    display: none;
+}

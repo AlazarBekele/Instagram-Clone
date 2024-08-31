@@ -1,0 +1,176 @@
+body {
+    padding-left: 260px;
+}
+.textInsta {
+    width: 125px;
+}
+.containText {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.MainSideBar {
+    width: 240px;
+    height: 100vh;
+    background: white;
+    border: 1px solid rgb(211, 211, 211);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.MainSideBarImg {
+    width: 25px;
+}
+.profile {
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.titleBar {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containericon {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+ul li {
+    list-style-type: none;
+}
+ul li :hover {
+    font-weight: bold;
+}
+.profileBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Threadicon {
+    width: 30px;
+
+}
+.LastIcon {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.story {
+    /* background: linear-gradient(135deg, #f700ff, #ff6f00); */
+    border: 5px solid black;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    border-radius: 50%;
+}
+
+.stoyrContain {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    margin-top: 20px;
+}
+.storyimg {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+}
+.Mainstory {
+    width: 60px;
+}
+.ProfileSide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.storyName {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.ProfileComponent {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.ProfileComponent2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.SuggestedClass {
+    display: flex;
+    gap: 35px;
+    font-size: 13px;
+}
+.Follow {
+    text-decoration: none;
+}
+.MainProfile {
+    width: 40px;
+    height: 40px;
+}
+.MaterInstagram {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MasterInstagramContain {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.postImg {
+    width: 480px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.SourceText {
+    color: rgb(177, 177, 177);
+}
+
+/*  */
+
+.likeBtn {
+    width: 25px;
+    margin-right: 15px;
+}
+.containLike {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+}
+
+.containCoverImg {
+    padding: 2px;
+    background: linear-gradient(90deg, #f701ff, #ff9900);
+    border-radius: 100%;
+}
+.coverImg {
+    background-color: white;
+    border-radius: 100%;
+}
+.conatinCoverAllstory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.conatinPostInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
